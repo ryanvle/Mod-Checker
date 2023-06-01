@@ -1,3 +1,9 @@
+# PRAW: The Python Reddit API Wrapper
+import praw
+
+# Private info
+%run reddit_keys.py
+
 # Reddit API
 reddit = praw.Reddit(
     username=username, password=password,
